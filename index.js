@@ -14,6 +14,7 @@ const targetDate = moment('2024-08-10T20:00:00');
             document.getElementById('remaining-hours').innerHTML = `${hours} Stunden`;
             document.getElementById('remaining-minutes').innerHTML = `${minutes} Minuten`;
             document.getElementById('remaining-seconds').innerHTML = `${seconds} Sekunden`;
+            console.log(days, hours, minutes, seconds);
         }
 
         // Update remaining time every second
