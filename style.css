@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     color: #FFF5E4;
     align-self: center;
-    margin-top: 32px;
+    margin: 128px 0;
 }
 
 .timer {
@@ -22,5 +22,5 @@ body {
     flex-direction: column;
     color: #FFF5E4;
     align-self: center;
-    margin: 64px 16px 0px 16px;
+    margin: 16px 16px 0px 16px;
 }

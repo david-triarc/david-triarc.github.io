@@ -10,8 +10,10 @@ const targetDate = moment('2024-08-10T20:00:00');
             const minutes = duration.minutes();
             const seconds = duration.seconds();
 
-            document.getElementById('remaining-time').innerHTML = 
-                `${days} Tagen ${hours} Stunden ${minutes} Minuten ${seconds} Sekunden`;
+            document.getElementById('remaining-days').innerHTML = `${days} Tagen`;
+            document.getElementById('remaining-hours').innerHTML = `${hours} Stunden`;
+            document.getElementById('remaining-minutes').innerHTML = `${minutes} Minuten`;
+            document.getElementById('remaining-seconds').innerHTML = `${seconds} Sekunden`;
         }
 
         // Update remaining time every second
