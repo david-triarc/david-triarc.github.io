@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    background-color: #B83B5E;
+}
+
+.title {
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    color: #FFF5E4;
+    align-self: center;
+    margin-top: 32px;
+}
+
+.timer {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    color: #FFF5E4;
+    align-self: center;
+    margin: 64px 16px 0px 16px;
+}
